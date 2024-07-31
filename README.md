@@ -23,5 +23,6 @@ Python 3.6 or higher
 Required Python libraries - requests, beautifulsoup4 ,urllib3,UserAgentFilter
 
 ## Project Structure
-`user_agent_filtering.py` :Filters user agents that can successfully access a specific website.
-`netaporter_data.py`:Scrapes product details from each product URL which is already extracted and saves the data to database
+
+- `user_agent_filtering.py` :Filters user agents that can successfully access a specific website.
+- `netaporter_data.py`:Scrapes product details from each product URL which is already extracted and saves the data to database
