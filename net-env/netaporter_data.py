@@ -22,7 +22,7 @@ CHECKPOINT_FILE = 'checkpoint.txt'
 DB_FILE = '_data.db'
 RETRY_ATTEMPTS = 3
 proxies = {
-  "https": "scraperapi.retry_404=true.country_code=us.device_type=desktop.session_number=125.keep_headers=true:458fa92f5567092c5d9d9f6e863ed38d@proxy-server.scraperapi.com:8001"
+  "https": "http://your_proxy:port"
 }
 
 headers_template = {
